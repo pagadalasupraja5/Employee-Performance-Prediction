@@ -8,15 +8,16 @@ This project uses a Random Forest Classifier to predict employee performance usi
 
 The model is trained on features like:
 
-✅ Attendance Rate
+1. Attendance Rate
 
-✅ Years at Company
+2. Years at Company
 
-✅ Training Hours
+3. Training Hours
 
-✅ Previous Rating
+4. Previous Rating
 
-✅ Overtime Hours
+5. Overtime Hours
+
 The application includes:
 
 📊 Machine Learning model
@@ -24,8 +25,6 @@ The application includes:
 🌐 Flask web interface
 
 💾 Saved model using Pickle
-
-📁 Structured project architecture
 
 🛠️ Tech Stack
 
