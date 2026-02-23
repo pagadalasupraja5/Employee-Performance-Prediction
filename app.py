@@ -25,7 +25,7 @@ def predict():
     prediction = model.predict([features])
     result = le.inverse_transform(prediction)[0]
 
-    return render_template("index.html", prediction_text=f"Performance: {result}")
+    return render_template("result.html", prediction=result)
 
 if __name__ == "__main__":
     app.run(debug=True)
