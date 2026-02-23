@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Performance Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h2>Employee Performance Prediction</h2>
+
+<form action="/predict" method="post">
+    Attendance Rate: <input type="number" name="attendance" required><br>
+    Years at Company: <input type="number" name="years" required><br>
+    Training Hours: <input type="number" name="training" required><br>
+    Previous Rating: <input type="number" name="rating" required><br>
+    Overtime Hours: <input type="number" name="overtime" required><br>
+    <button type="submit">Predict</button>
+</form>
+
+<h3>{{ prediction_text }}</h3>
+
+</body>
+</html>
